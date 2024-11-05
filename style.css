@@ -53,3 +53,23 @@ ul li {
 .topmenu ul:hover {
   display: block;
 }
+
+section {
+  width: 95%;
+  height: 95%;
+  background-color: lightgreen;
+  margin: auto;
+  margin-top: 0.7rem;
+  padding: 1rem;
+}
+
+section img {
+  margin: 1rem;
+  border: 8px black solid;
+  box-shadow: -6px -6px 10px rgb(77, 193, 255), 6px 6px 10px rgb(77, 193, 255);
+  transition: transform 0.5s;
+}
+
+section img:hover {
+  transform: rotate(10deg);
+}
